@@ -481,6 +481,12 @@ a.dienst-card h3 {
     gap: 0.5rem;
 }
 
+.contact-icon {
+    flex-shrink: 0;
+    vertical-align: middle;
+    stroke: currentColor;
+}
+
 .contact-details a:hover {
     color: var(--orange);
 }
@@ -513,6 +519,15 @@ a.dienst-card h3 {
 .footer-bottom p {
     font-size: 0.875rem;
     opacity: 0.8;
+}
+
+.footer-bottom a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: var(--orange);
 }
 
 /* ===== Floating WhatsApp CTA ===== */
@@ -617,6 +632,9 @@ a.dienst-card h3 {
 .contact-details-block p {
     color: var(--gray-800);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .contact-details-block a:hover {
