@@ -1,0 +1,8 @@
+{
+  "name": "brauw-techniek-zzp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx serve -l 3000",
+    "serve": "python -m http.server 8080"
+  }
+}
